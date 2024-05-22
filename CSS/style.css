@@ -1,0 +1,44 @@
+#title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    padding-top: 10px;
+}
+
+#text{
+
+    padding-top: 10em;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+}
+.float{
+     float: right;
+
+
+}
+.rounded-circle{
+    float:right
+}
+.col-4{
+    color:white;
+
+}
+#name{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em ;
+    color:white;
+    text-align: center;
+}
+
+.badge{
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.nbutton{
+    padding-bottom: 30px;
+    text-align: center;
+
+}
