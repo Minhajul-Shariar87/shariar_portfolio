@@ -72,3 +72,16 @@
     
 
 }
+#cpp{
+    width: 80px;
+    color: green;
+}
+
+.np{
+    padding-top: 50px;
+}
+
+li{
+    list-style-type:none;
+    padding: 25px;
+}
