@@ -88,6 +88,7 @@
     position: relative;
     font-weight: bold;
     color: white;
+    
 }
 
 .col-6 ul li::before{
@@ -186,12 +187,12 @@
     
 }
 
-.card-body{
+/* .card-body{
 width: 50%;
 height: fit-content;
-}
+} */
 .card-body{
-    width: 100%;
+    width:auto;
     height: 100%;
     
 }
