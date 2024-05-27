@@ -88,7 +88,6 @@
     position: relative;
     font-weight: bold;
     color: white;
-    
 }
 
 .col-6 ul li::before{
@@ -187,12 +186,28 @@
     
 }
 
-/* .card-body{
-width: 50%;
-height: fit-content;
-} */
+
 .card-body{
-    width:auto;
+    width: 100%;
     height: 100%;
     
 }
+
+#more_info{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 2em;
+    color:white;
+}
+.SKILL{
+text-align: center;
+
+left: 0;
+right: 0;
+color: white;
+
+}
+
+
