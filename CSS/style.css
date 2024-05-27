@@ -190,6 +190,7 @@
 .card-body{
     width: 100%;
     height: 100%;
+    background-color: black; 
     
 }
 
@@ -201,13 +202,23 @@
     font-size: 2em;
     color:white;
 }
-.SKILL{
-text-align: center;
-
-left: 0;
-right: 0;
-color: white;
-
+.card{
+    background-color: black;
+   
+    margin:10px;
 }
+.education ol li{
+    color:white;
+}
+
+#education{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    font-weight:bold ;
+    font-size: 24px;
+    text-align: center;
+}
+
 
 
