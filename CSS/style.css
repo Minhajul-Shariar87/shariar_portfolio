@@ -88,6 +88,8 @@
     position: relative;
     font-weight: bold;
     color: white;
+   
+   
 }
 
 .col-6 ul li::before{
@@ -205,7 +207,7 @@
 .card{
     background-color: rgb(44, 43, 43);
    
-    margin:10px;
+    margin:20px;
 }
 .education ol li{
     color:white;
@@ -218,8 +220,13 @@
     font-weight:bold ;
     font-size: 24px;
     text-align: center;
-    top:0;
+   
+    
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    /* float:inline-start; */
     display: inline;
+position: absolute;
     
    
 }
@@ -231,8 +238,36 @@
 }
 #png{
     text-align: center;
+   position: relative;
     
 }
+#nskills{
+    text-align: center;
+   position: relative;
+    
+}
+.skills{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    
+    font-weight:bold ;
+    font-size: 24px;
+    text-align: center;
+   
+    
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    /* float:inline-start; */
+    display: inline;
+position: absolute;
+    
+   
+}
+.unorderlist{
+    top:0;
+   padding: 0;
+}
+
 
 
 
