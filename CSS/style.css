@@ -188,7 +188,6 @@
     
 }
 
-
 .card-body{
     width: 100%;
     height: 100%;
@@ -263,9 +262,50 @@ position: absolute;
     
    
 }
-.unorderlist{
-    top:0;
-   padding: 0;
+.callingcentre{
+    text-align: center;
+    
+    margin-left: 320px
+   
+}
+#contact{
+    float: right;
+    margin-left: 70px;
+    margin-top: 50px;
+    margin-right: 200px;
+    
+}
+.card-title{
+    color: white;
+    
+}
+#nQuery{
+    color: white;
+}
+#instagram{
+    color:pink;
+    text-decoration: none;
+}
+#facebook{
+    color:rgb(110, 110, 235);
+    text-decoration: none;  
+}
+#github{
+    color:white;
+    text-decoration: none;  
+}
+
+
+#contactme{
+
+}
+#contactme{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 2em;
+    color:white;
 }
 
 
