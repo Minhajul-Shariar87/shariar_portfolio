@@ -12,6 +12,53 @@
     <link rel="stylesheet" href="../CSS/style.css">
 
     <title>Shariar Zaman</title>
+    <style>
+      @media only screen and (max-width:576px) {
+       *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+       }
+        #rounded-circle1{
+
+        width:200px;
+        height: 200px;
+        margin-right: 90px;        
+        
+       } 
+       .about12{
+        
+        align-items: left;
+      
+        font-size:16px;
+        
+       
+        
+        
+        
+        
+        
+        
+       }
+       #text{
+      padding: 0px;
+       }
+       #name{
+        font-size: 30px;
+       }
+       #card12{
+        width:340px !important;
+        
+       }
+       #icon{
+        word-spacing: 2px;
+        margin-left: 100px;
+        margin-top: 20px;
+       }
+    
+    }
+    </style>
   </head>
   <body>
     
@@ -21,24 +68,49 @@
             
             <div class="col bg-secondary">
              <!-- RESPONSIVE NAVS -->
-             <p id="title">SHARIAR ZAMAN</p>
+             
+             
+             <nav id="navbar-example2 " class="navbar navbar-light">
+              <span class="navbar-brand">SHARIAR ZAMAN </span>
+              <ul class="nav nav-pills">
+                <li class="nav-item">
+                  <a class="nav-link" href="#text">Intro</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#nmain">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#more_info">More Info</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contactme">Contact</a>
+                </li>
+                
+              </ul>
+            </nav>
+          
+          
              
             </div>
         </div>
         <div class="row">
-            <div class="col-6 bg-dark">
-                <p id="text">MY NAME IS</p>
-                <p id="name">MD.MINHAJUL SHARIAR ZAMAN ALIF</p><br>
-                <div class="nbutton">
-                    <span class="badge badge-warning">I AM A WEBSITE DEVELOPER</span>
-            </div>
-            </div>
-            <div class="col-6 bg-dark p-4">
+            
+            <div class="col-lg-6 col-sm-12 bg-dark p-4">
                 <!-- IMAGE -->
-                <img src="../IMAGES/HOME.jpg" alt="..." class="rounded-circle">
+                <img src="../IMAGES/HOME.jpg" alt="..." class="rounded-circle" id="rounded-circle1">
                 
     
             </div>
+            <div class="col-lg-6 col-sm-12  bg-dark">
+              <div class="about12">
+              <p id="text">MY NAME IS</p>
+              <p id="name">MD.MINHAJUL SHARIAR ZAMAN ALIF</p><br>
+              <div class="nbutton">
+                  <span class="badge badge-warning">I AM A WEBSITE DEVELOPER</span>
+
+          </div>
+        </div>
+          </div>
 
         </div>
 
@@ -49,13 +121,14 @@
     </div>
     <div class="container-fluid bg-secondary">
       <div class="row">
-      <div class="col-4">
+      <div class="col-lg-4 col-sm-12">
       <div class="nimage">
-      <img src="../IMAGES/about.jpg" alt="about" class="rounded-circle">
+      <img src="../IMAGES/about.jpg" alt="about" class="rounded-circle" id="rounded-circle1">
     </div>
   </div>
   <div class="col">
-    <p id="nmain">ABOUT</p>
+                            <!--ABOUT-->
+    <!-- <p id="nmain">ABOUT</p> -->
     <p id="about">My name is MD.Minhajul Shariar Zaman Alf. I am currently reading in American International University of Bangladesh on the CSE department. I am good in photography and in PowerPoint presentations and Word. I am good in C++, and JAVA programming language. I am good in HTML, CSS, and BOOTSTRAP web language. I have cybersecurity skills from Arena Web Security. I get a photography award from AIUB. 
     </p>
   </div>
@@ -65,17 +138,20 @@
     <div class="container-fluid bg-dark">
       <div class="row">
         <div class="col-12">
-          <p id="more_info">MORE INFO</p>
+          <div class="moreinfo">
+          <span id="more_info">MORE INFO</span>
+        </div>
         </div>
         </div>
         <div class="row">
         <div class="col-6">
-          <div class="card" style="width: auto;">
-           
+          <div class="card" id="card12" style="width: auto;">
+            <div class="unorderlist">
             <div class="card-body" >
+              
               <img src="../IMAGES/competence.png" id="nskills" alt="">
               <p class="skills">SKILLS</p>
-              <div class="unorderlist">
+              
               <ul>
                 <li class="html">HTML</li>
                 <li class="css">CSS</li>
@@ -101,9 +177,9 @@
        
         
       </div>
-      <div class="col-6">
+      <div class="col-lg-6 col-sm-12">
         <div class="card" style="width:auto;">
-          
+          <div class="unorderlist">
           <div class="card-body">
             <div class="education">
               <img src="../IMAGES/learning.png" id="png" alt="">
@@ -133,6 +209,7 @@
           </div>
           </div>
         </div>
+        </div>
       </div>
       
      </div>
@@ -140,34 +217,62 @@
 
      <!-- THIS IS CONTACT US -->
 
-     <div class="container-fluid bg-secondary">
-      <div class="row">
-        <div class="col">
-        <p id="contactme">CONTACT ME</p>
-      </div>
-      </div>
+     <div class="container-fluid nbg ">
+     
       <div class="row">
        <!-- <div class="col-6">
         <img src="../IMAGES/contact-information.png" id="contact" class="img-fluid" alt="Responsive image"> 
         </div> -->
        <div class="col-12">
+        <div class="ncontent">
+        <span id="git">Get in touch..</span>
+      </div>
+        <p id="contactme" >CONTACT</p>
+    </div>
+     </div>
+  <div class="info">
+     <div class="row">
+      
+      <div class="col-lg-4 col-sm-12">
         
-          <div class="callingcentre">
-          <div class="card" style="width: 40rem">
-           
-            <img class="card-img-top" src="../IMAGES/cover.jpg"  alt="Card image cap">
-            <div class="card-body">
-              <!-- <img src="../IMAGES/contacts.png" alt=""> -->
-              <h5 class="card-title">SHARIAR ZAMAN</h5>
-             <p id="nQuery">For Any Queries or need web designing contact with me</p>
-             <a href="https://github.com/Minhajul-Shariar87" id="github"><i class="bi bi-github"></i></a>
-             <a href="https://www.facebook.com/minhajul.alif.1/" id="facebook"><i class="bi bi-facebook"></i></a>
-             <a href="https://www.instagram.com/__shariar_zaman/" id="instagram"><i class="bi bi-instagram"></i></a>
-            </div>
-          </div>
-        </div>
+        <i class="bi bi-envelope"></i>
+        <span id="nicon">shariarzaman11@gmail.com</span>
+      </div>
+      <div class="col-lg-4 col-sm-12">
+        <i class="bi bi-telephone"></i>
+        <span id="nicon">+880 01905058778</span>
+      </div>
+      <div class="col-lg-4 col-sm-12">
+        <i class="bi bi-geo-alt"></i>
+        <span id="nicon">Mirpur,Dhaka-1216</span>
+      </div>
+    </div>
+    </div>
+    
+     
+     
+     <div class="row">
+      <div class="col" id="icon">
+       <a href="https://www.facebook.com/minhajul.alif.1/" id="facebook" target="_blank"> <i class="bi bi-facebook"></i></a>
+       <a href="https://github.com/Minhajul-Shariar87" id="github" target="_blank"> <i class="bi bi-github"></i></a>
+       <a href="https://www.linkedin.com/in/md-minhajul-shariar-zaman-alif-a2aa431b2/" id="linkedin"target="_blank"> <i class="bi bi-linkedin"></i></a>
+       <a href="https://www.instagram.com/__shariar_zaman/" id="instagram"target="_blank"> <i class="bi bi-instagram"></i></a>
+
+        
       </div>
      </div>
+     <div class="row">
+      <div class="col">
+        <div class="content">
+        <i class="bi bi-c-circle" id="copyright"></i>
+        <span>2024 All Right Reserved</span>
+      </div>
+      </div>
+     </div>
+     </div>
+     </div>
+
+
 
    
    
